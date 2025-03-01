@@ -2,6 +2,8 @@ import tour1 from './images/tour-1.jpeg';
 import tour2 from './images/tour-2.jpeg'; 
 import tour3 from './images/tour-3.jpeg';
 import tour4 from './images/tour-4.jpeg';
+import tour5 from './images/tour-5.jpeg'; 
+import tour6 from './images/tour-6.jpeg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -43,9 +45,8 @@ export const tours = [
     image: tour1,
     date: 'august 26th, 2025',
     title: 'Tibet Adventure',
-    info:  'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
-    location: 'china',
-    duration: 6,
+    info:  'Discover the enchanting fusion of Nepals historical treasures and Tibets mystical landscapes in this 8 day odyssey. From the vibrant city of Kathmandu to the serene hills of Nagarkot, immerse yourself in diverse cultures.... ',
+    duration: 8,
     cost: 2100,
   },
 
@@ -78,5 +79,25 @@ export const tours = [
     location: 'kenya',
     duration: 20,
     cost: 3300,
+  },
+  {
+    id: 5,
+    image: tour5,
+    date: 'July 23rd, 2025',
+    title: 'african safari',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+    location: 'south africa',
+    duration: 12,
+    cost: 2800,
+  },
+  {
+    id: 6,
+    image: tour6,
+    date: 'September 12th, 2025',
+    title: 'visit india',
+    info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+    location: 'india',
+    duration: 10,
+    cost: 3100,
   },
 ]
